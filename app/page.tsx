@@ -8,7 +8,6 @@ export default function Home() {
   const [generatedReadme, setGeneratedReadme] = useState("");
 
   return (
-    // Ginawa nating 'bg-background' at 'text-foreground' para dynamic sa dark mode
     <main className="min-h-screen flex flex-col items-center p-8 sm:p-24 bg-background text-foreground transition-colors duration-300">
       <div className="z-10 max-w-5xl w-full flex flex-col items-center gap-8">
         
