@@ -20,7 +20,6 @@ export default function Home() {
           </p>
         </div>
         
-        {/* Main Interface */}
         <div className="w-full flex flex-col items-center gap-6">
           <InputForm onGenerate={(readme) => setGeneratedReadme(readme)} />
           
