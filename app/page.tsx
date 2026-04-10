@@ -11,7 +11,6 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center p-8 sm:p-24 bg-background text-foreground transition-colors duration-300">
       <div className="z-10 max-w-5xl w-full flex flex-col items-center gap-8">
         
-        {/* Header Section */}
         <div className="text-center space-y-2">
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-6xl">
             Docu<span className="text-blue-600">Mint</span>
