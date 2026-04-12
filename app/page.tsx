@@ -23,7 +23,6 @@ export default function Home() {
         <div className="w-full flex flex-col items-center gap-6">
           <InputForm onGenerate={(readme) => setGeneratedReadme(readme)} />
           
-          {/* Preview Section - lalabas lang kapag may content na */}
           {generatedReadme && (
             <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
               <Preview content={generatedReadme} />
