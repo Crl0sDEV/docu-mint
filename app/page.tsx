@@ -30,7 +30,6 @@ export default function Home() {
           )}
         </div>
 
-        {/* Footer/Note */}
         {!generatedReadme && (
           <div className="mt-12 text-zinc-500 text-xs">
             Built with Next.js 15 + Gemini 1.5 Flash
