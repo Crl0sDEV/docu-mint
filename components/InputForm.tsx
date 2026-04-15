@@ -40,7 +40,6 @@ export default function InputForm({ onGenerate }: InputFormProps) {
       <input
         type="text"
         placeholder="Enter GitHub Repository URL (e.g., https://github.com/user/repo)"
-        // BINAGO: Pinalinaw ang border at background
         className="p-4 bg-zinc-800 border-2 border-zinc-700 rounded-xl text-white placeholder:text-zinc-500 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all shadow-inner"
         value={url}
         onChange={(e) => setUrl(e.target.value)}
