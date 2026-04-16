@@ -27,7 +27,6 @@ export default function Preview({ content }: PreviewProps) {
   };
 
   return (
-    /* BINAGO: Idinagdag ang 'mx-auto' para mag-center */
     <div className="w-full max-w-4xl mx-auto mt-12 bg-zinc-900 border border-zinc-700 rounded-2xl shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-500">
       {/* Header Bar */}
       <div className="flex justify-between items-center p-4 border-b border-zinc-700 bg-zinc-800/50">
