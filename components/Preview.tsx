@@ -56,7 +56,6 @@ export default function Preview({ content }: PreviewProps) {
         </div>
       </div>
       
-      {/* Content Area */}
       <div className="p-8 prose prose-invert prose-blue max-w-none h-150 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-transparent">
         <ReactMarkdown>{content}</ReactMarkdown>
       </div>
